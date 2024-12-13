@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafa;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+header a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Section Spacing */
+.section {
+    margin-bottom: 30px;
+}
+
+/* Skills, Certifications, Activities */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #f4f4f4;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.95em;
+    color: #333;
+}
+
+.skills li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #e9f5ff;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 30px;
+}
